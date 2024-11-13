@@ -181,7 +181,7 @@ window.addEventListener('load', function(){
         homeButton.style.padding = '10px'
         homeButton.style.marginTop = '10px';
         homeButton.onclick = function() {
-            window.location.href = '/';
+            window.location.href = 'index.html';
         };
         gameOverDiv.appendChild(homeButton);
 
