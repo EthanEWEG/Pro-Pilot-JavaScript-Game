@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(15, 0, 29);
+}
+
+#canvas1 {
+    background-color: skyblue;
+    border: 5px solid black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    /* keeps the screen visible in all sizes */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#player, #meteor, #missile, #laser, #cloud1, #cloud2, #cloud3, #cloud4{
+    display: none;
+}
